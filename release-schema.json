@@ -1,0 +1,24 @@
+{
+  "definitions" : {
+    "Contract" : {
+      "properties" : {
+        "contractType" : {
+          "title" : "contract Type",
+          "description" : "Classification of the contract, whether by amount, term or quantity",
+          "type" : ["string", "null"]
+        },
+        "minValue" : {
+          "title" : "Minimum Value",
+          "description" : "Lower limit of the amount of the contract",
+          "$ref" : "#/definitions/Value"
+        },
+        "maxValue" : {
+          "title" : "Maximum Value",
+          "description" : "Upper limit of the amount of the contract",
+          "$ref" : "#/definitions/Value"
+        },
+
+      }
+    }
+  }
+}
