@@ -16,8 +16,7 @@
           "title" : "Maximum Value",
           "description" : "Upper limit of the amount of the contract",
           "$ref" : "#/definitions/Value"
-        },
-
+        }
       }
     }
   }
